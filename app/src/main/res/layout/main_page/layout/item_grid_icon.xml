@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--主页gridview的卡片内容控件-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/radius_card_bg_gv">
+
+    <android.support.percent.PercentRelativeLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/iv_weather"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_heightPercent="60%"
+            app:layout_widthPercent="60%"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_sunny" />
+
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_heightPercent="20%"
+            app:layout_widthPercent="70%"
+            android:gravity="center"
+            android:text="@string/textview_name"
+            android:textSize="50sp"
+            android:layout_below="@+id/iv_weather"
+            android:layout_centerHorizontal="true" />
+
+    </android.support.percent.PercentRelativeLayout>
+
+</RelativeLayout>

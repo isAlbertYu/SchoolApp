@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--login按钮未点击时的字体颜色-->
+    <color name="textview_text_color1">#7adfb8</color>
+    <!--login按钮点击时的字体颜色-->
+    <color name="textview_text_color2">#ffffff</color>
+
+    <color name="a">#CC000000</color>
+</resources>

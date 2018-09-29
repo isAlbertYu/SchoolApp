@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--主页gridview的卡片背景-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    <corners android:radius="20dip"/>
+    <solid android:color="#faa8d7"/>
+
+</shape>

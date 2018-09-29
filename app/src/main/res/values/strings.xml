@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SchoolApp</string>
+    <string name="splash_text">SchoolApp启动页面</string>
+
+    <string name="textview_name">notext</string>
+
+    <string name="course_name">notext</string>
+
+
+
+
+</resources>
